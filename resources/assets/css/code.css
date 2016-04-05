@@ -1,0 +1,154 @@
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.head_change{
+   background-image:url("/gallery/images/star.jpg");
+   
+}
+
+.fix{
+position:fixed;
+}
+
+.border{
+   background-image: url("/gallery/images/login.jpg");
+   
+}
+
+#trigger{
+  position:fixed;
+  left:-550px;
+  height:100%;
+  width:50%px;
+  background-color:black;
+  opacity:0.9;
+}
+
+.menu {
+  background-color: #b3b300;
+  opacity:0.8;
+  left: -300px;  /* start off behind the scenes */
+  height:100%;
+  position: fixed;
+  width:20%;
+  z-index:4;
+  
+}
+
+/* Basic styling */
+.head-box{
+   background-image: url("/gallery/images/mygallery.jpg");
+   height:200px;
+
+   font-size:150px;
+
+}
+
+.jumbotron {
+  
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.jumbo{
+  background-color:pink; 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.menu ul {
+  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head :hover{
+color:purple;
+}
+.come_out_trigger{
+  
+}
+.come_out{
+   
+    display: none;
+
+    
+
+}
+.picture{
+   border-radius:50%;
+border:10px solid white;
+}
+.see{
+ 
+ border-radius:50%;
+border:10px solid white;
+}
+.form-control{
+  font-size:50%;
+  height:60%;
+  width:100%px;
+}
+.relative{
+  position:relative;
+}
+.fix_nav{
+  display:inline;
+ float:right;
+}
+.menu li {
+
+border-bottom:solid white 2px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top:23px;
+  line-height: 23px;
+  padding-bottom:23px;
+}
+
+.menu a {
+  color:#fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:800;
+}
+.menu a:hover {
+  color:black;
+
+
+}
+
+
+.icon-close {
+  cursor: pointer;
+  color:white;
+
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight:500;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
